@@ -13,3 +13,13 @@ The original code can be found on [Elecrow-RD/The-king-of-fighters-on-ESP32](htt
 The code is a PlatformIO project. The easiest way to get started is opening the project folder in VS Code. The necessary VS Code extensions should be automatically downloaded.
 
 This code has been compiled sucessfully using Espressif 32 Platform v6.3.2
+
+## Images
+
+![Game](images/game.jpg?raw=true "game")
+
+
+![Play](images/play.jpg?raw=true "play")
+
+
+![KO](images/ko.jpg?raw=true "ko")
