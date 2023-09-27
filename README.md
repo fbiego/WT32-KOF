@@ -1,26 +1,15 @@
 
-# wt32-lvgl-template
+# WT32-KOF
 
-This is a template project for WT32-SC01 board for LVGL UI development.
+The King of Fighters game.
 
-You can compile this project as is without the UI files. Do this to ensure you have the correct display and lvgl settings.
+Modified the original code to run on WT32 SC01 Plus board.
+This includes the ui and functions of the game. While the game requires two push buttons for each player the code has been modified to include onscreen controls for demo purposes.
 
-Default build environment is `wt32-sc01-plus`
+The original code can be found on [Elecrow-RD/The-king-of-fighters-on-ESP32](https://github.com/Elecrow-RD/The-king-of-fighters-on-ESP32)
 
-### SquareLine Studio
+## Compiling
 
-[`Download Link`](https://squareline.io/)
+The code is a PlatformIO project. The easiest way to get started is opening the project folder in VS Code. The necessary VS Code extensions should be automatically downloaded.
 
-With SquareLine studio you can create ui using drag and drop. The source code can be exported for use on the hardware.
-
-#### Create a project
-
-- Don't use `-` in the project name
-- Resolution `320 480` for portrait or `480 320` for landscape
-- Color depth `16 bit swap`
-
-#### Exporting the UI
-
-- Export the UI files from SquareLine to [`src/ui/`](https://github.com/fbiego/wt32-lvgl-template/tree/master/src/ui) folder
-- In `include/main.h`, uncomment the line `// #define USE_UI` to use the exported UI files
-- In `src/ui/ui.h`, change `#include "lvgl/lvgl.h"` to `#include "lvgl.h"`
+This code has been compiled sucessfully using Espressif 32 Platform v6.3.2
